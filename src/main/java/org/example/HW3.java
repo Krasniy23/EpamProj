@@ -19,12 +19,13 @@ public class HW3 {
         double result1 = d1 - d2;
         double result2 = d1 * d2;
         double result3 = d1 / d2;
-
+        double result4 = d1 % d2;
 
         System.out.println("Answer by sum " + result);
         System.out.println("Answer by subtract " + result1);
         System.out.println("Answer by multiply " + result2);
         System.out.println("Answer by divide  " + result3);
+        System.out.println("Answer by mod  " + result4);
 
     }
 }
