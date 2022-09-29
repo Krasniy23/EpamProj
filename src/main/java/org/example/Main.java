@@ -1,10 +1,16 @@
 package org.example;
 
 public class Main {
+    private static String[] months =
+            {"January","february","March", "April","January1","february1","March1", "April1"};
     public static void main(String[] args) {
-        int intValue1 = 74;
-        int intValue2 = 36;
-        int result = intValue1 + intValue2;
-        System.out.println(result);
+
+        loopMonths();
+    }
+
+    private static void loopMonths() {
+        for (int i = 0; i < months.length; i++) {
+            System.out.println(months[i]);
+        }
     }
 }
