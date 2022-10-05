@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="P2HW2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/P2HW2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/P2HW3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
     "extract.method.default.visibility": "private",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
@@ -46,33 +47,12 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P2HW2">
-    <configuration name="HW4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW4" />
-      <module name="EpamProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HW5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW5" />
-      <module name="EpamProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.P2HW3">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="EpamProj" />
@@ -95,6 +75,26 @@
     </configuration>
     <configuration name="P2HW2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.P2HW2" />
+      <module name="EpamProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P2HW3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P2HW3" />
+      <module name="EpamProj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P2HW3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.P2HW3" />
       <module name="EpamProj" />
       <extension name="coverage">
         <pattern>
@@ -130,20 +130,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HW5" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.P2HW1" />
       <item itemvalue="Application.P2HW2" />
-      <item itemvalue="Application.HW4" />
+      <item itemvalue="Application.P2HW3" />
+      <item itemvalue="Application.P2HW3 (1)" />
       <item itemvalue="Maven.EpamProj" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P2HW3" />
+        <item itemvalue="Application.P2HW3 (1)" />
         <item itemvalue="Application.P2HW2" />
         <item itemvalue="Application.P2HW1" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.HW5" />
-        <item itemvalue="Application.HW4" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664994936456</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="P2HW2">
+      <created>1664995911173</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664995911173</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
