@@ -5,7 +5,5 @@ public class Main {
         Random random = new Random();
         System.out.println(random.nextInt());
 
-        System.out.println(random.nextletter());
-        
     }
 }
