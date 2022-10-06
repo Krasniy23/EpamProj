@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="P2HW2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/P2HW3.java" afterDir="false" />
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="P2HW3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/P2HW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/P2HW3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664995911173</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="P2HW2">
+      <created>1664996988572</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664996988572</updated>
+    </task>
+    <task id="LOCAL-00016" summary="P2HW3">
+      <created>1664997113253</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664997113253</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +293,7 @@
     <MESSAGE value="random" />
     <MESSAGE value="P2HW1" />
     <MESSAGE value="P2HW2" />
-    <option name="LAST_COMMIT_MESSAGE" value="P2HW2" />
+    <MESSAGE value="P2HW3" />
+    <option name="LAST_COMMIT_MESSAGE" value="P2HW3" />
   </component>
 </project>
