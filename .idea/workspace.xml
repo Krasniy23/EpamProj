@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="P2HW3">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/P2HW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/P2HW3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/P2HW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/P2HW1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P2HW3">
+  <component name="RunManager" selected="Application.P2HW1">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="EpamProj" />
@@ -138,10 +139,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P2HW1" />
         <item itemvalue="Application.P2HW3" />
         <item itemvalue="Application.P2HW3 (1)" />
         <item itemvalue="Application.P2HW2" />
-        <item itemvalue="Application.P2HW1" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -281,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665065515879</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="P2HW3">
+      <created>1665065800186</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665065800186</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
