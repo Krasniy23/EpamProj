@@ -1,8 +1,7 @@
-import java.util.Random;
+package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Random random = new Random();
-        System.out.println(random.nextInt());
+       P2HW2 computer = new P2HW2("HP", "17.9");
     }
 }
