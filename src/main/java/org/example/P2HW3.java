@@ -7,6 +7,6 @@ public class P2HW3 {
         int y = 50;
         myRect.width = x;
         myRect.height = y;
-        System.out.println("myRect's area is " + myRect);
+        System.out.println("myRect's area is " + (myRect.getWidth() * myRect.getHeight()));
     }
 }
