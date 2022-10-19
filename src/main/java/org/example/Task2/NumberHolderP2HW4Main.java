@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Task2;
 
 public class NumberHolderP2HW4Main {
     public static void main(String[] args) {

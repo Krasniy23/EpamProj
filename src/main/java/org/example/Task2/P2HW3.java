@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Task2;
 import java.awt.*;
 public class P2HW3 {
     public static void main(String[] args) {

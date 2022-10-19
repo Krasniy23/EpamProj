@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Task2;
 
 public class NumberHolderP2HW4 {
     public int anInt;

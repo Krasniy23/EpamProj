@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="P2HW2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberHolderP2HW4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberHolderP2HW4Main.java" afterDir="false" />
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="P2HW4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/VectorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/HW1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/HW2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/HW3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/HW4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/HW5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NumberHolderP2HW4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/NumberHolderP2HW4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NumberHolderP2HW4Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/NumberHolderP2HW4Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/P2HW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/P2HW1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/P2HW2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/P2HW2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/P2HW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/P2HW3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +64,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberHolderP2HW4Main">
+  <component name="RunManager" selected="Application.VectorMain">
     <configuration name="NumberHolderP2HW4Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.NumberHolderP2HW4Main" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task2.NumberHolderP2HW4Main" />
       <module name="EpamProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,24 +79,11 @@
       </method>
     </configuration>
     <configuration name="P2HW1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.P2HW1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task2.P2HW1" />
       <module name="EpamProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P2HW2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.P2HW2" />
-      <module name="EpamProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +99,24 @@
       </method>
     </configuration>
     <configuration name="P2HW3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.P2HW3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task2.P2HW3" />
       <module name="EpamProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task3.VectorMain" />
+      <module name="EpamProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +149,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NumberHolderP2HW4Main" />
+      <item itemvalue="Application.VectorMain" />
       <item itemvalue="Application.P2HW1" />
-      <item itemvalue="Application.P2HW2" />
       <item itemvalue="Application.P2HW3" />
       <item itemvalue="Application.P2HW3 (1)" />
       <item itemvalue="Maven.EpamProj" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VectorMain" />
         <item itemvalue="Application.NumberHolderP2HW4Main" />
         <item itemvalue="Application.P2HW1" />
         <item itemvalue="Application.P2HW3" />
         <item itemvalue="Application.P2HW3 (1)" />
-        <item itemvalue="Application.P2HW2" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665156471657</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="P2HW4">
+      <created>1666175869344</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1666175869344</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,6 +368,7 @@
     <MESSAGE value="P2HW3" />
     <MESSAGE value="P2HW1" />
     <MESSAGE value="P2HW2" />
-    <option name="LAST_COMMIT_MESSAGE" value="P2HW2" />
+    <MESSAGE value="P2HW4" />
+    <option name="LAST_COMMIT_MESSAGE" value="P2HW4" />
   </component>
 </project>

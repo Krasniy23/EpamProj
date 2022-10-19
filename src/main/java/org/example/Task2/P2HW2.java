@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Task2;
 
 public class P2HW2 {
     private String brand;

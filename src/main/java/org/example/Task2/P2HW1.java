@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Task2;
 
 public class P2HW1 {
     public static void main(String[] args) {
