@@ -3,9 +3,9 @@ package org.example.Task3;
 import java.util.Random;
 
 public class Vector {
-    private double x;
-    private double y;
-    private double z;
+    private final double x;
+    private final double y;
+    private final double z;
 
     public Vector(double x, double y, double z) {
         this.x = x;
