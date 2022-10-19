@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="P2HW2">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberHolderP2HW4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberHolderP2HW4Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +53,16 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P2HW1">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.NumberHolderP2HW4Main">
+    <configuration name="NumberHolderP2HW4Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.NumberHolderP2HW4Main" />
       <module name="EpamProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,7 +137,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.NumberHolderP2HW4Main" />
       <item itemvalue="Application.P2HW1" />
       <item itemvalue="Application.P2HW2" />
       <item itemvalue="Application.P2HW3" />
@@ -139,11 +146,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberHolderP2HW4Main" />
         <item itemvalue="Application.P2HW1" />
         <item itemvalue="Application.P2HW3" />
         <item itemvalue="Application.P2HW3 (1)" />
         <item itemvalue="Application.P2HW2" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665067141382</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="P2HW2">
+      <created>1665156471657</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156471657</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
