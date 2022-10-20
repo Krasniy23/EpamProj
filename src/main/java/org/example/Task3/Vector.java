@@ -1,6 +1,6 @@
 package org.example.Task3;
-
 import java.util.Random;
+
 
 public class Vector {
     private final double x;
@@ -15,10 +15,10 @@ public class Vector {
     public double vectorLength(){
         return 0;
     }
-    public double calculateProduct(){
-        return 0;
+    public double calculateProduct() {
+       return 0;
     }
-    public static Vector[] anyMassiv(int n){
+    public static Vector[] anyMassive(int n){
         Vector[] array = new Vector[n];
         Random r = new Random();
         for(int i = 0; i<n; i++){
@@ -35,4 +35,5 @@ public class Vector {
                 ", z=" + z +
                 '}';
     }
+
 }
