@@ -1,4 +1,5 @@
 package org.example.Task3;
+
 import java.util.Random;
 
 
@@ -12,19 +13,32 @@ public class Vector {
         this.y = y;
         this.z = z;
     }
-    public double vectorLength(){
-        return (Math.sqrt(x*x + y*y + z*z));
+
+    public double vectorLength() {
+        return (Math.sqrt(x * x + y * y + z * z));
     }
+
     public double calculateProduct(Vector vector) {
-       return(x*vector.x + y*vector.y + z*vector.z);
+        return (x * vector.x + y * vector.y + z * vector.z);
     }
-    public static Vector[] anyMassive(int n){
+
+    public double calculateProduct() {
+        Vector vector = anyVector();
+        return (x * vector.x + y * vector.y + z * vector.z);
+    }
+
+    public static Vector[] anyMassive(int n) {
         Vector[] array = new Vector[n];
         Random r = new Random();
-        for(int i = 0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             array[i] = new Vector(r.nextDouble(), r.nextDouble(), r.nextDouble());
         }
         return array;
+    }
+
+    public static Vector anyVector() {
+        Random r = new Random();
+        return new Vector(r.nextDouble(), r.nextDouble(), r.nextDouble());
     }
 
     @Override

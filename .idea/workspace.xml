@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Vector">
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Vector2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/Vector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3/VectorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/VectorMain.java" afterDir="false" />
@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666288047919</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Vector2">
+      <created>1666347626488</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666347626488</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,6 +388,7 @@
     <MESSAGE value="P2HW2" />
     <MESSAGE value="P2HW4" />
     <MESSAGE value="Vector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vector" />
+    <MESSAGE value="Vector2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vector2" />
   </component>
 </project>

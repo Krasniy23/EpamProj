@@ -8,5 +8,6 @@ public class VectorMain {
         Vector vector2 = new Vector(2,3,4);
         System.out.println(vector1.vectorLength());
         System.out.println(vector2.calculateProduct(vector2));
+        System.out.println(vector1.calculateProduct());
     }
 }
