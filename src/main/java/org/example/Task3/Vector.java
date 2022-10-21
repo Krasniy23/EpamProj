@@ -13,10 +13,10 @@ public class Vector {
         this.z = z;
     }
     public double vectorLength(){
-        return 0;
+        return (Math.sqrt(x*x + y*y + z*z));
     }
-    public double calculateProduct() {
-       return 0;
+    public double calculateProduct(Vector vector) {
+       return(x*vector.x + y*vector.y + z*vector.z);
     }
     public static Vector[] anyMassive(int n){
         Vector[] array = new Vector[n];
