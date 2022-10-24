@@ -1,4 +1,4 @@
-package org.example.Task3;
+package org.example.Task3.Vector;
 
 import java.util.Random;
 
