@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class AlphabetLetter {
     public static void main(String[] args) {
-        int frequency = 0;
-        char character = ' ';
-        String linesOfText = " ";
+        int frequency;
+        char character;
+        String linesOfText;
 
         char[] alphabet = new char[26];
         for (char ch = 'a'; ch <= 'z'; ++ch)
@@ -30,4 +30,3 @@ public class AlphabetLetter {
         }
     }
 }
-

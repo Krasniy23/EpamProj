@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="HW4OOP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex1/AlphabetLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex2/Collections.java" afterDir="false" />
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Task3Module6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex1/AlphabetLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex1/AlphabetLetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <recent name="org.example.Task3.Shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collections">
+  <component name="RunManager" selected="Application.AlphabetLetter">
     <configuration name="AlphabetLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Task4Module6.Ex1.AlphabetLetter" />
       <module name="EpamProj" />
@@ -153,10 +152,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlphabetLetter" />
         <item itemvalue="Application.Collections" />
         <item itemvalue="Application.Example (1)" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.AlphabetLetter" />
         <item itemvalue="Application.GFG" />
       </list>
     </recent_temporary>
@@ -380,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666627917082</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Task3Module6">
+      <created>1666858193741</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1666858193741</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Task3Module6">
+      <created>1666858349732</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666858349732</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,23 +424,7 @@
     <MESSAGE value="Vector2" />
     <MESSAGE value="Vector3" />
     <MESSAGE value="HW4OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW4OOP" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex1/AlphabetLetter.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex1/AlphabetLetter.java</url>
-          <line>30</line>
-          <option name="temporary" value="true" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Task3Module6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task3Module6" />
   </component>
 </project>
