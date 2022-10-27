@@ -1,24 +1,21 @@
 package org.example.Task4Module6.Ex3;
 
-import java.util.HashMap;
+import java.util.LinkedList;
 
 public class Replace {
     public static void main(String[] args) {
-        HashMap<String, Integer> map = new HashMap<>();
-        map.put("a", 100);
-        map.put("b", 300);
-        map.put("c", 300);
-        map.put("d", 400);
+        LinkedList<String> list = new LinkedList<>();
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        list.add("4");
 
-        System.out.println("HashMap: " + map);
+        System.out.println("New list" + list);
 
-        map.replace("a", 101);
-        map.replace("b", 201);
-        map.replace("c", 301);
-        map.replace("d", 401);
-        map.replace("e", 501); // for check that not unused mat not displayed
-
-
-        System.out.println("New HashMap: " + map);
+        list.set(1, "1111");
+        System.out.println("\n3rd Element Replaced \n");
+        for (String str2 : list) {
+            System.out.println(str2);
+        }
     }
 }
