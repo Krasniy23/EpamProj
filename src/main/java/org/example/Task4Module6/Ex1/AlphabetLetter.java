@@ -17,16 +17,16 @@ public class AlphabetLetter {
         Scanner keyboard = new Scanner(System.in);
         linesOfText = keyboard.nextLine();
         System.out.print("Letter" + "Frequency");
-        for (int i = 0; i < alphabet.length; i++)
-        {   frequency = 0 ;
+        for (char c : alphabet) {
+            frequency = 0;
             for (int j = 0; j < linesOfText.length(); j++) {
-                character = linesOfText.charAt(j) ;
-                if (character == alphabet[i]) {
-                    frequency++ ;
+                character = linesOfText.charAt(j);
+                if (character == c) {
+                    frequency++;
                 }
             }
 
-            System.out.println("\n" + alphabet[i] + "\t" + frequency); ;
+            System.out.println("\n" + c + "\t" + frequency);
         }
     }
 }
