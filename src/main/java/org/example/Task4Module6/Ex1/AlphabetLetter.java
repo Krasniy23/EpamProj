@@ -1,16 +1,18 @@
 package org.example.Task4Module6.Ex1;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class AlphabetLetter {
+
     public static void main(String[] args) {
         int frequency;
         char character;
         String linesOfText;
+        HashMap<Character, Integer> map = new HashMap();
 
         char[] alphabet = new char[26];
-        for (char ch = 'a'; ch <= 'z'; ++ch)
-        {
+        for (char ch = 'a'; ch <= 'z'; ++ch) {
             alphabet[ch - 'a'] = ch;
         }
         System.out.println("Enter letter for counter: ");

@@ -60,7 +60,7 @@
       <recent name="org.example.Task3.Shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Replace">
+  <component name="RunManager" selected="Application.Collections">
     <configuration name="AlphabetLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Task4Module6.Ex1.AlphabetLetter" />
       <module name="EpamProj" />
@@ -153,9 +153,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collections" />
         <item itemvalue="Application.Replace" />
         <item itemvalue="Application.AlphabetLetter" />
-        <item itemvalue="Application.Collections" />
         <item itemvalue="Application.Example (1)" />
         <item itemvalue="Application.Example" />
       </list>
