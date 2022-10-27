@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Collections {
-    public static <T> ArrayList<T> removeDuplicates(ArrayList<T> list)
+    public static <List> ArrayList<List> removeDuplicates(ArrayList<List> list)
     {
-        ArrayList<T> newList = new ArrayList<T>();
-        for (T element : list) {
+        ArrayList<List> newList = new ArrayList<List>();
+        for (List element : list) {
             if (!newList.contains(element)) {
                 newList.add(element);
             }
