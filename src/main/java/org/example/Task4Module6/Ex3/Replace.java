@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class Replace {
+//public class Replace {
 //    public static void main(String[] args) {
 //        LinkedList<String> list = new LinkedList<>();
 //        list.add("1");
@@ -22,10 +22,15 @@ public class Replace {
 //        }
 //    }
 
+/*
     public Map<Integer, ArrayList<String>> mapReplace(Map<String, Integer> initialMap) {
         Map<Integer, ArrayList<String>> resultMap = new HashMap<>();
+
+        resultMap.put(1, a);
+        resultMap.put(b, 2);
+        resultMap.put(c, 3);
 
         for (Entry<String, Integer> stringIntegerEntry : initialMap.entrySet()) { }
         return null;
     }
-}
+}*/

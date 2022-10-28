@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Task3Module6">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex4/PlacingOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex4/PlacingOrders.java" afterDir="false" />
-    </list>
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Task3Module6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +21,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex3/Replace.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex4/PlacingOrders.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2FJ03jgZLXuIVQPYuQQAleYCyid" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "extract.method.default.visibility": "private",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.Task3.Shape" />
@@ -59,7 +63,7 @@
       <recent name="org.example.Task3.Shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlphabetLetter">
+  <component name="RunManager" selected="Application.PlacingOrders">
     <configuration name="AlphabetLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Task4Module6.Ex1.AlphabetLetter" />
       <module name="EpamProj" />
@@ -93,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lettercount.Example" />
+    <configuration name="PlacingOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task4Module6.Ex4.PlacingOrders" />
       <module name="EpamProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lettercount.*" />
+          <option name="PATTERN" value="org.example.Task4Module6.Ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,18 +149,18 @@
     <list>
       <item itemvalue="Application.AlphabetLetter" />
       <item itemvalue="Application.Collections" />
-      <item itemvalue="Application.Example" />
       <item itemvalue="Application.Example (1)" />
+      <item itemvalue="Application.PlacingOrders" />
       <item itemvalue="Application.Replace" />
       <item itemvalue="Maven.EpamProj" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlacingOrders" />
         <item itemvalue="Application.AlphabetLetter" />
         <item itemvalue="Application.Replace" />
         <item itemvalue="Application.Collections" />
         <item itemvalue="Application.Example (1)" />
-        <item itemvalue="Application.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666868102827</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Task3Module6">
+      <created>1666869850167</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1666869850167</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -454,5 +465,10 @@
     <MESSAGE value="HW4OOP" />
     <MESSAGE value="Task3Module6" />
     <option name="LAST_COMMIT_MESSAGE" value="Task3Module6" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EpamProj$PlacingOrders.ic" NAME="PlacingOrders Coverage Results" MODIFIED="1666975931619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.Task4Module6.Ex4.*</FILTER>
+    </SUITE>
   </component>
 </project>
