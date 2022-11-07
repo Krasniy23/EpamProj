@@ -6,44 +6,31 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 public class Replace {
+
     public static void main(String[] args) {
-//        LinkedList<String> list = new LinkedList<>();
-//        HashMap<String, Integer> map
-//            = new HashMap<>();
-//        map.put("a", 100);
-//        map.put("b", 300);
-//        map.put("c", 300);
-//        map.put("d", 400);
-//
-//      System.out.println("Mapping: "+ map.toString());
-//
-//       int k = map.replace("b", 200);
-//
-//        // print the value of k
-//        System.out.println("Previous value of 'b': " + k);
-//
-//        // print new mapping
-//        System.out.println("New mapping: "
-//                           + map.toString());
-//    }
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("a", 1);
+        map.put("b", 3);
+        map.put("c", 3);
+        map.put("d", 4);
+
+        System.out.println(mapReplace(map));
     }
 
+    public static <K, V> Map<V, ArrayList<K>> mapReplace(Map<K, V> initialMap) {
+        Map<V, ArrayList<K>> resultMap = new HashMap<>();
 
-//    public static Map<Integer, ArrayList<String>> mapReplace(Map<K, V> initialMap) {
-//        Map<Integer, ArrayList<String>> resultMap = new HashMap<>();
-//
-//        resultMap.put(1, a);
-//        resultMap.put(b, 2);
-//        resultMap.put(c, 3);
-//
-//        for (Entry<String, Integer> stringIntegerEntry : initialMap.entrySet()) { }
-//        return null;
-//    }
+        for (Entry<K, V> entry : initialMap.entrySet()) {
+            System.out.println(resultMap);
 
-//    public static <K, V> HashMap<V, K> reverse(Map<K, V> map) {
-//        HashMap<V, K> rev = new HashMap<V, K>();
-//        for (Map.Entry<K, V> entry : map.entrySet())
-//            rev.put(entry.getValue(), entry.getKey());
-//        return rev;
-//    }
+            if (resultMap.get(entry.getValue()) != null) {
+                resultMap.get(entry.getValue()).add(entry.getKey());
+            } else {
+                ArrayList<K> valueList = new ArrayList<>();
+                valueList.add(entry.getKey());
+                resultMap.put(entry.getValue(), valueList);
+            }
+        }
+        return resultMap;
+    }
 }
