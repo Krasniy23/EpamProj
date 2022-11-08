@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Task3Module6">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="New replace method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task5/StreamFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex3/Replace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex3/Replace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex5/TwoMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task4Module6/Ex5/TwoMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="org.example.Task3.Shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Replace">
+  <component name="RunManager" selected="Application.TwoMap">
     <configuration name="AlphabetLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Task4Module6.Ex1.AlphabetLetter" />
       <module name="EpamProj" />
@@ -167,8 +165,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Replace" />
         <item itemvalue="Application.TwoMap" />
+        <item itemvalue="Application.Replace" />
         <item itemvalue="Application.PlacingOrders" />
         <item itemvalue="Application.AlphabetLetter" />
         <item itemvalue="Application.Collections" />
@@ -443,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666869850167</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="New replace method">
+      <created>1667239268965</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1667239268965</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,7 +480,8 @@
     <MESSAGE value="Vector3" />
     <MESSAGE value="HW4OOP" />
     <MESSAGE value="Task3Module6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task3Module6" />
+    <MESSAGE value="New replace method" />
+    <option name="LAST_COMMIT_MESSAGE" value="New replace method" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EpamProj$PlacingOrders.ic" NAME="PlacingOrders Coverage Results" MODIFIED="1666975931619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
