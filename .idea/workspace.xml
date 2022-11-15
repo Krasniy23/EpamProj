@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="New replace method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task5/StreamFilter.java" afterDir="false" />
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task5/StreamFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task5/StreamFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.Task5" />
       <recent name="org.example.Task3.Shape" />
       <recent name="org.example.Task3" />
       <recent name="org.example" />
@@ -66,26 +67,13 @@
       <recent name="org.example.Task3.Shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoMap">
+  <component name="RunManager" selected="Application.StreamFilter">
     <configuration name="AlphabetLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Task4Module6.Ex1.AlphabetLetter" />
       <module name="EpamProj" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.Task4Module6.Ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Task4Module6.Ex2.Collections" />
-      <module name="EpamProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Task4Module6.Ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +100,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.Task4Module6.Ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task5.StreamFilter" />
+      <module name="EpamProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,8 +157,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.StreamFilter" />
       <item itemvalue="Application.AlphabetLetter" />
-      <item itemvalue="Application.Collections" />
       <item itemvalue="Application.PlacingOrders" />
       <item itemvalue="Application.Replace" />
       <item itemvalue="Application.TwoMap" />
@@ -165,11 +166,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamFilter" />
         <item itemvalue="Application.TwoMap" />
         <item itemvalue="Application.Replace" />
         <item itemvalue="Application.PlacingOrders" />
         <item itemvalue="Application.AlphabetLetter" />
-        <item itemvalue="Application.Collections" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667239268965</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Stream">
+      <created>1667922447746</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1667922447746</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +489,8 @@
     <MESSAGE value="HW4OOP" />
     <MESSAGE value="Task3Module6" />
     <MESSAGE value="New replace method" />
-    <option name="LAST_COMMIT_MESSAGE" value="New replace method" />
+    <MESSAGE value="Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EpamProj$PlacingOrders.ic" NAME="PlacingOrders Coverage Results" MODIFIED="1666975931619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
