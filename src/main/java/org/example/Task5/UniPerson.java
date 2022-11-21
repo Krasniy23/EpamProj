@@ -1,14 +1,13 @@
 package org.example.Task5;
 
+// import com.sun.tools.javac.util.List;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
 
 public class UniPerson {
-
     static class Person {
-
         public final String firstName;
         public final String lastName;
         public final Integer age;
@@ -20,7 +19,7 @@ public class UniPerson {
         }
 
         public static void main(String[] args) {
-            Person[] peopleArr = {
+            Person[] personList = {
                     new Person("Peter", "Patterson", 21),
                     new Person("Paul", "Walker", 31),
                     new Person("Steve", "Runner", 17),
@@ -31,15 +30,14 @@ public class UniPerson {
                     new Person(" Arnold", "Stevenson", 19),
                     new Person("Aaron", "Bortnicker", 18),
             };
-            List<Person> people = new ArrayList<>(Arrays.asList(peopleArr));
+            List<Person> people = new ArrayList<>(Arrays.asList(personList));
 
-            List<String> peopleName = people
+            List<String> personFirstName = people
                     .stream()
-                    .filter(person -> person.age > 18)
-                    .map(person -> person.firstName.replaceAll(" ", ""))
+                    .filter((person) -> personList)
                     .collect(Collectors.toList());
 
-            System.out.println(peopleName);
+            System.out.println(personFirstName);
         }
     }
 }
