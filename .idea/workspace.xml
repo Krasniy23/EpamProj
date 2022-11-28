@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Person and Library ticket">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task6/HelloDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task5/UniPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task5/UniPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task5/StreamFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task5/StreamFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -67,13 +69,13 @@
       <recent name="org.example.Task3.Shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniPerson$Person">
-    <configuration name="PlacingOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Task4Module6.Ex4.PlacingOrders" />
+  <component name="RunManager" selected="Application.HelloDriver">
+    <configuration name="HelloDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task6.HelloDriver" />
       <module name="EpamProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Task4Module6.Ex4.*" />
+          <option name="PATTERN" value="org.example.Task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,20 +159,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.HelloDriver" />
       <item itemvalue="Application.UniPerson$Person" />
       <item itemvalue="Application.StreamFilter" />
-      <item itemvalue="Application.PlacingOrders" />
       <item itemvalue="Application.Replace" />
       <item itemvalue="Application.TwoMap" />
       <item itemvalue="Maven.EpamProj" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloDriver" />
         <item itemvalue="Application.UniPerson$Person" />
         <item itemvalue="Application.StreamFilter" />
         <item itemvalue="Application.TwoMap" />
         <item itemvalue="Application.Replace" />
-        <item itemvalue="Application.PlacingOrders" />
       </list>
     </recent_temporary>
   </component>
@@ -477,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669026975618</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Person and Library ticket">
+      <created>1669630558935</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669630558935</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,6 +523,10 @@
     <MESSAGE value="Task51and2" />
     <MESSAGE value="Person and Library ticket" />
     <option name="LAST_COMMIT_MESSAGE" value="Person and Library ticket" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EpamProj$PlacingOrders.ic" NAME="PlacingOrders Coverage Results" MODIFIED="1666975931619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
