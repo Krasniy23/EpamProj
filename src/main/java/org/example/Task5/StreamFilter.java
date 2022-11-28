@@ -12,7 +12,8 @@ public class StreamFilter {
                         " "));
 
         List<String> anyO = values.stream()
-                .filter(value -> value.startsWith("O"))
+                .filter(value -> value.startsWith("O") || value.startsWith("o"))
+                .distinct()
                 .collect(Collectors.toList());
 
         System.out.println(anyO);
