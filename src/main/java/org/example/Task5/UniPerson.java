@@ -1,10 +1,11 @@
 package org.example.Task5;
 
-// import com.sun.tools.javac.util.List;
-import java.awt.*;
+import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
+
+import static jdk.internal.icu.lang.UCharacter.getAge;
 
 public class UniPerson {
     static class Person {
@@ -34,7 +35,8 @@ public class UniPerson {
 
             List<String> personFirstName = people
                     .stream()
-                    .filter((person) -> personList)
+                    .map(person -> personList.toUpperCase())
+                    .filter(person -> personList.getAge() > 18)
                     .collect(Collectors.toList());
 
             System.out.println(personFirstName);
