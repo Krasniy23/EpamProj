@@ -18,6 +18,15 @@ public class BookDepository {
         WebElement selectBook = driver.findElement(By.cssSelector("body > div.page-slide > div.content-wrap > div.main-content.search-page > div.content-block > div > div > div > div > div:nth-child(1) > div.item-info > h3"));
         selectBook.click();
         Thread.sleep(2000);
+        WebElement addToBasket = driver.findElement(By.cssSelector("body > div.page-slide > div.content-wrap > div > div > div.item-wrap > div.item-block > div.item-tools > div > div.btn-wrap > a.btn.btn-primary.add-to-basket"));
+        addToBasket.click();
+        Thread.sleep(2000);
+        WebElement goToBasket = driver.findElement(By.cssSelector("body > div.modal.fade.status-success.in > div > div > div.modal-body > div > div.basket-info > a.btn.btn-primary.pull-right.continue-to-basket.string-to-localize.link-to-localize"));
+        goToBasket.click();
+        Thread.sleep(2000);
+        WebElement removeFromBasket = driver.findElement(By.cssSelector("body > div.page-slide > div.content-wrap > div > div.basket-items-wrap > div.basket-item > div.item-checkout-info > form.remove-item > button"));
+        removeFromBasket.click();
+        Thread.sleep(20000);
         driver.quit();
     }
 }
