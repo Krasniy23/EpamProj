@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Search book and add to basket">
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Basket flow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task6/BookDepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task6/BookDepository.java" afterDir="false" />
     </list>
@@ -498,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670343567763</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Basket flow">
+      <created>1670348871280</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1670348871280</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +543,8 @@
     <MESSAGE value="Person and Library ticket" />
     <MESSAGE value="Selenium WebD" />
     <MESSAGE value="Search book and add to basket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search book and add to basket" />
+    <MESSAGE value="Basket flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basket flow" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
