@@ -11,7 +11,7 @@ public class BookDepository {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.bookdepository.com/");
         Thread.sleep(2000);
-//        WebElement cookiesYes = driver.findElement(By.cssSelector(".cookie-consent-buttons [class*='yes']"));
+        WebElement cookiesYes = driver.findElement(By.cssSelector(".cookie-consent-buttons [class*='yes']"));
 //        cookiesYes.click();
 //        Thread.sleep(2000);
         By searchGradleButton = By.xpath("//*[@id=\"book-search-form\"]/div[1]/input[1]");
