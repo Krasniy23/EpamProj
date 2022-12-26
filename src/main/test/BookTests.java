@@ -36,7 +36,7 @@ public class BookTests {
         WebElement goToBasket = driver.findElement(By.cssSelector(
                 "[class='btn btn-primary pull-right continue-to-basket string-to-localize link-to-localize']"));
         goToBasket.click();
-
+        Assert.assertEquals(goToBasket, driver.getTitle());
     }
 
     @After
