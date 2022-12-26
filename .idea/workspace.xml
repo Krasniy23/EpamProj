@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="Basket flow">
+    <list default="true" id="36125c36-ea90-4fcd-8ab5-e1cc25d762c1" name="Changes" comment="some fix for test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task6/BookDepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task6/BookDepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/BookTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/BookTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -505,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670348871280</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="some fix for test">
+      <created>1672073817154</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1672073817154</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +552,8 @@
     <MESSAGE value="Selenium WebD" />
     <MESSAGE value="Search book and add to basket" />
     <MESSAGE value="Basket flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basket flow" />
+    <MESSAGE value="some fix for test" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fix for test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
