@@ -17,10 +17,12 @@ public class BookTests {
     @Test
     public void checkThatUrlIsValid() {
         Assert.assertEquals("https://www.bookdepository.com/", driver.getCurrentUrl());
-        By searchGradleButton = By.xpath("//*[@id=\"book-search-form\"]/div[1]/input[1]");
+        By searchGradleButton = By.xpath(
+                "//*[@id=\"book-search-form\"]/div[1]/input[1]");
         WebElement searchField = driver.findElement(searchGradleButton);
         searchField.sendKeys("Harry Potter");
-        WebElement searchButton = driver.findElement(By.xpath("//*[@id=\"book-search-form\"]/div[1]/button"));
+        WebElement searchButton = driver.findElement(By.xpath(
+                "//*[@id=\"book-search-form\"]/div[1]/button"));
         searchButton.click();
         Thread.sleep(2000);
         WebElement selectBook = driver.findElement(By.cssSelector(
@@ -34,7 +36,7 @@ public class BookTests {
         WebElement goToBasket = driver.findElement(By.cssSelector(
                 "[class='btn btn-primary pull-right continue-to-basket string-to-localize link-to-localize']"));
         goToBasket.click();
-        
+
     }
 
     @After
