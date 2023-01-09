@@ -12,7 +12,7 @@ import java.util.List;
 
 public class BookTests {
 
-    private WebDriver driver = new ChromeDriver();
+    private final WebDriver driver = new ChromeDriver();
 
     @Before
     public void before() {
